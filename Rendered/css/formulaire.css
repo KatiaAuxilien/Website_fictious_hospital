@@ -1,0 +1,107 @@
+/*Style pour les formulaire*/
+
+        /*Mise en page des formulaires*/
+
+.fieldset {
+    background-color: #e0cba0;
+    border: 1px solid #dcd6ca;
+    border-radius : 4px;
+    /*border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;*/
+}
+
+.tableau{
+    background-color: #dbbd82;
+    /*width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 1%;*/
+}
+
+        /*Entrées du formulaire*/
+
+/*Page : contact | Cases : Prénom et Nom*/
+/*Page : rendez vous | Cases : Prénom et Nom*/
+.input{
+    /*Texte*/
+    background-color:#e7ccf9;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Case*/
+    width:80%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    /*Bordure*/
+    border-style: dotted;
+    border-color: #e390ff;
+    border-width: 1px 1px;
+}
+
+#named::placeholder{
+    color:#5e46d3;
+}
+
+/*Page : contact | Cases : Date de naissance*/
+/*Page : rendez vous | Cases : Date de naissance*/
+.datedenaiss{
+    margin-right: 65%;
+    margin-bottom: 2%;
+}
+
+/*Page : contact | Cases : Mail*/
+/*Page : rendez vous | Cases : Mail et Téléphone*/
+.input2{
+    font-family: Arial, Helvetica, sans-serif;
+    width:80%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+/*Page : contact | Case : Site*/
+.input3{
+    color: #a284e8;
+    font-family: Arial, Helvetica, sans-serif;
+    width:40%;
+    margin-right: 70%;
+    margin-bottom: 2%;
+}
+
+/*Page : contact | Ligne pays*/
+.votrepays{
+    text-align: left;
+    padding-top: 2%;
+}
+.espacementtd{
+    padding-top: 1%;
+}
+
+
+
+/*Page : contact et rendez vous | Lignes label*/
+.label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    color: #5c616f;
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+/*Page : contact et rendez vous | Ligne : case à cocher genre*/
+.label2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    color: #5c616f;
+    text-align: left;
+    padding-top: 2%;
+}
+
+/*Page : contact | Partie Schéma vaccinal*/
+.hschema {
+    font-weight: bold;
+    /*margin-bottom: 0%;
+    margin-top: 0%;*/
+}
